@@ -40,6 +40,8 @@ body {
   color: #828282;
   text-align: center;
   cursor: grab;
+  margin: 5px 0;
+  box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
 }
 
 .item:active {
@@ -61,4 +63,18 @@ body {
 
 .done {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+  border: 2px solid rgb(210, 199, 221);
+  box-shadow: none;
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 3px solid #cabcca;
+  margin-bottom: 2px;
 }
